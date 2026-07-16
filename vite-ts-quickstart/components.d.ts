@@ -24,7 +24,7 @@ declare module 'vue' {
     StatsWidget: typeof import('./src/components/dashboard/StatsWidget.vue')['default']
     Tag: typeof import('primevue/tag')['default']
   }
-  export interface ComponentCustomProperties {
+  export interface GlobalDirectives {
     StyleClass: typeof import('primevue/styleclass')['default']
   }
 }
